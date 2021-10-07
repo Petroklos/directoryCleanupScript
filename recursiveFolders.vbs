@@ -29,7 +29,7 @@ End Function
 For i = 0 To UBound(directoryPaths)
 	Deleted = 0
 	DirectoryDFS directoryPaths(i)
-	logFile.WriteLine "Deleted " & Deleted & " Directories in " & directoryPaths(i)s
+	logFile.WriteLine "Deleted " & Deleted & " Directories in " & directoryPaths(i)
 Next
 
 logFile.WriteLine
