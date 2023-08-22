@@ -8,7 +8,11 @@ This script is designed to clean up specific directories based on certain criter
 
 2. Set the `daysToRetain` variable to specify the number of days a folder should be retained before deletion.
 
-3. Run the script using a VBScript interpreter.
+3. Choose Cleaning Method:
+   - **Cleaning by Date**: Uncomment the line `DirectoryCleanByDate Folder.Path` within the `DirectoryDFS` function to delete folders based on their creation date.
+   - **Cleaning by Name**: Uncomment the line `DirectoryCleanByName Folder.Path` within the `DirectoryDFS` function to delete folders based on a name convention.
+
+4. Run the script using a VBScript interpreter.
 
 ## Functions
 
